@@ -31,3 +31,55 @@
     transform: rotate(360deg);
   }
 }
+
+
+.headingMainText{
+  font-family: 'Palanquin Dark', sans-serif !important;
+  font-size: 7em !important;
+  margin-top: 10px !important;
+}
+
+.headingBox{
+  border-radius: 15px !important;
+  border: white 1px !important;
+  box-shadow: none !important;
+  background: none !important;
+  height:200px;
+
+
+}
+
+.mainPage {
+
+  background: rgb(142,241,232);
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1) !important;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+.mainPage {
+  /* background: linear-gradient(193deg, #e11b1b, #e17d1b, #e1c31b, #1f9037, #1bcee1, #1b1fe1, #c51be1, #e11b4e) !important;
+  background-size: 1600% 1600%;
+
+-webkit-animation: AnimationName 50s ease infinite;
+-moz-animation: AnimationName 50s ease infinite;
+transform: AnimationName 50s ease infinite;
+ */
+
+}
